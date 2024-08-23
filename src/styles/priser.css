@@ -1,0 +1,8 @@
+.headerPriser{
+    grid-column: 1 / 3;
+    grid-row: 2;
+}
+.articlePriser{
+    grid-column: 1 / 3;
+    grid-row: 3;
+}

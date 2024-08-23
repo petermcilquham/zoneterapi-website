@@ -1,0 +1,13 @@
+.articleBooking{
+    grid-column: 1 / 2;
+    grid-row: 2;
+}
+.asideBooking{
+    grid-column: 2 / 3;
+    grid-row: 2;
+}
+
+.leaflet-container {
+    height: 40vh;
+    width: 20wh;
+}

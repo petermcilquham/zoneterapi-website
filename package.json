@@ -1,0 +1,38 @@
+{
+  "name": "react.dev",
+  "version": "0.0.0",
+  "main": "/src/index.js",
+  "scripts": {
+    "start": "cross-env BROWSER='firefox' react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "-": "^0.0.1",
+    "cross-env": "^7.0.3",
+    "leaflet": "^1.9.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-leaflet": "^4.2.1",
+    "react-router-dom": "^6.26.1",
+    "react-scripts": "^5.0.1",
+    "save": "^2.9.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/leaflet": "^1.9.12",
+    "webpack-config": "^7.0.0"
+  }
+}
